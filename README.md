@@ -14,7 +14,6 @@ Este projeto é uma aplicação web que permite aos usuários pesquisar e visual
 - Visualização de uma lista de jogos gratuitos.
 - Paginação para navegar pelos jogos.
 - Detalhes de cada jogo ao clicar em um card.
-- Persistência da página atual ao navegar pelos detalhes do jogo e voltar.
 
 ### Pré-requisitos
 
@@ -36,20 +35,3 @@ Este projeto é uma aplicação web que permite aos usuários pesquisar e visual
 
 Após iniciar o servidor de desenvolvimento, a aplicação estará disponível em `http://localhost:3000`. Você poderá visualizar a lista de jogos e navegar pelos detalhes de cada um.
 
-## Estrutura do Projeto
-
-```plaintext
-├── public
-│   ├── index.html
-│   └── ...
-├── src
-│   ├── components
-│   │   ├── GameCard.js
-│   │   ├── GameList.js
-│   │   ├── Header.js
-│   │   └── ...
-│   ├── App.js
-│   ├── index.js
-│   └── ...
-├── package.json
-└── README.md
