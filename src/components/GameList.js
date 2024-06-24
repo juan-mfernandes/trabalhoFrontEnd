@@ -38,7 +38,7 @@ const GameList = () => {
         const apiKey = "7cf1d9f1e8msh517d715e9e0c570p1acfe7jsnee97d0fe388d"
         const hostKey = "free-to-play-games-database.p.rapidapi.com"
         try {
-            const response = await axios.get("https://free-to-play-games-database.p.rapidapi.com/api/games", {
+            const response = await axios.get("https://free-to-play-games-database.p.rapidapi.com/api/games?sort-by=alphabetical", {
                 headers: {
                     "x-rapidapi-key": apiKey,
                     "x-rapidapi-host": hostKey
