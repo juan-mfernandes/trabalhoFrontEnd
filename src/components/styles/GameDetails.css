@@ -1,0 +1,8 @@
+.lineS {
+    width: 80%;
+    border: solid 2px #FFFFFF;
+    box-shadow: 0 0 5px #FFFFFF;
+    border-radius: 5px;
+    align-self: center;
+    margin: 0;
+}
